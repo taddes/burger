@@ -12,7 +12,7 @@ var app = express();
 app.use(express.static(process.cwd() + "/public"));
 
 // Parse the application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: true }))
 
 var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({defaultLayout: "main"}));
