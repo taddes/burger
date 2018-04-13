@@ -21,5 +21,5 @@ app.set("view engine", "handlebars");
 
 app.use("/", routes);
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3306;
 app.listen(PORT);
