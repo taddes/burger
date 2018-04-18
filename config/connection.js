@@ -10,7 +10,7 @@ else {
     user     : "root",
     password : "root",
     database : "burgers_db"
-  });
+  })
 }
 
 connection.connect(function(err) {
