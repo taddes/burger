@@ -10,7 +10,7 @@ var connection = require("../config/connection.js");
     
 			for (var i =0; i < num; i++){
 
-        arr.ush('?');
+        arr.push('?');
         
       };
       
